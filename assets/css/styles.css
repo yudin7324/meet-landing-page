@@ -337,7 +337,7 @@ body {
 
 @media (min-width: 1280px) {
   .main__wrap {
-    padding: 56px 44px 72px 44px;
+    padding: 56px 0 72px 0;
   }
 }
 
@@ -353,7 +353,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 16px;
   row-gap: 16px;
-  padding: 64px 0;
+  margin: 64px 0;
 }
 
 @media (min-width: 600px) {
@@ -375,6 +375,7 @@ body {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
+  aspect-ratio: 1;
 }
 
 .main__img img {
